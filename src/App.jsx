@@ -38,7 +38,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <main className="px-10 py-10 bg-[#eee] min-h-[80vh] ">
+      <main className=" px-7 py-7 md:px-10 md:py-10 bg-[#eee] min-h-[80vh] ">
         <InputArea onAdd={addNote} />
         <section className="note-item-container">
           {notes.map((note, index) => {
