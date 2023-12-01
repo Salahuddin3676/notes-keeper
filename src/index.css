@@ -21,7 +21,7 @@
 }
 
 .notes-btn {
-  @apply bg-[#f5ba13] absolute z-50 -bottom-4 right-4 w-8 flex items-center justify-center hover:bg-[#f5ca59] duration-200 text-white rounded-full h-8;
+  @apply bg-[#f5ba13] absolute z-50 -bottom-5 right-4 w-10 flex items-center justify-center text-xl hover:bg-[#f5ca59] duration-200 text-white rounded-full h-10;
 }
 
 /* --- NoteItems--Section --- */
