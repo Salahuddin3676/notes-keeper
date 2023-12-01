@@ -39,5 +39,5 @@
 
 /* --- Footer--Section --- */
 .footer {
-  @apply bg-[#eee] h-[10vh] text-gray-400 flex items-center justify-center text-center py-5 w-full font-montserrat text-sm;
+  @apply bg-[#eee] h-[10vh] text-gray-400 flex items-center justify-center text-center py-5 w-full font-montserrat text-xs;
 }
