@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- Header--Section --- */
+.header {
+  @apply flex items-center gap-3 h-[10vh] text-white w-full font-bold font-poppins text-xl px-10 py-4 bg-[#f5ba13];
+}
+
+/* --- Input--Section --- */
+.notes-form {
+  @apply flex py-3 flex-col mx-auto bg-white shadow-md rounded-md mb-10 relative w-full md:w-[450px];
+}
+
+.notes-input {
+  @apply w-full font-semibold outline-none font-montserrat text-sm px-4 py-2;
+}
+
+.notes-textarea {
+  @apply w-full outline-none overflow-hidden resize-none font-montserrat text-sm px-4;
+}
+
+.notes-btn {
+  @apply bg-[#f5ba13] absolute z-50 -bottom-4 right-4 w-8 flex items-center justify-center hover:bg-[#f5ca59] duration-200 text-white rounded-full h-8;
+}
+
+/* --- NoteItems--Section --- */
+.note-item-container {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-5 w-full;
+}
+
+.note-item {
+  @apply py-5 px-7 flex flex-col gap-1 w-full bg-white font-montserrat rounded-md shadow-md;
+}
+
+.delete-btn {
+  @apply text-2xl z-50 absolute bottom-2 right-2 text-red-600 cursor-pointer hover:opacity-70;
+}
+
+/* --- Footer--Section --- */
+.footer {
+  @apply bg-[#eee] h-[10vh] text-gray-400 flex items-center justify-center text-center py-5 w-full font-montserrat text-sm;
+}
